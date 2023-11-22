@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Daniel Lawrence</title>
+    <link rel="icon" href="images/Icons/title-icon.png" type="image/x-icon" />
+    <!--bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!--jquery link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--css file link-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--poppins font link-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid p-0" style="background-image: url(images/background.jpg); background-size: cover; height: 100vh">
+        <!--navbar-->
+
+        <nav id="navbar" class="navbar navbar-expand-lg p-4">
+          <div class="container-fluid pb-3">
+            <a class="navbar-brand text-light fs-3 m-0" href="">Daniel Lawrence</a>
+            <!--hamburger button-->
+            <div id="hamburgerBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler text-end" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span><i class="fa fa-bars fs-3 text-light"></i></span>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="container-fluid p-0 d-flex justify-content-lg-end">
+                <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-3">
+                  <!-- Navbar links -->
+                  <li class="nav-item">
+                    <a id="about-link" href="#about" class="nav-link text-light">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="about-link" href="#skills" class="nav-link text-light">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="projects-link" href="#projects" class="nav-link text-light">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="contact-link" href="#contact" class="nav-link text-light mb-1">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="CV.pdf" target="_blank" class="btn resume-link"><i class="fas fa-file p-2 ps-0"></i>Resume</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <!--welcome text-->
+        <div class="d-flex flex-column justify-content-center align-items-center text-center pt-5" style="height: 90vh">
+          <span class="display-2 fw-bold text-light py-3">Daniel Lawrence</span>
+          <span class="text-light fs-6">Computer Science Student at Loughborough University</span>
+          <a id="btn-enter" class="my-4 p-3 btn btn-light" style="border: none" href="#about" type="button">Enter Portfolio</a>
+        </div>
+      </div>
+    </header>
+    <div id="homepage-container" class="row w-100 bg-light py-4 g-0">
+      <div class="col-md-12 text-center">
+        <img class="homepage-icon py-2 px-3" src="images/Icons/mgs-icon.png" alt="MGS Icon" style="height: 11vh; max-width: 100%" />
+        <img class="homepage-icon py-2 px-3" src="images/Icons/unversity-icon.png" alt="Lboro Icon" style="height: 10vh; max-width: 100%" />
+        <img class="homepage-icon py-2 px-3" src="images/Icons/lawtech-icon.png" alt="Lawtech Sport Icon" style="height: 10vh; max-width: 100%" />
+        <img class="homepage-icon py-2 px-3" src="images/Icons/roadchef-icon.webp" alt="Roadchef Sport Icon" style="height: 10vh; max-width: 100%" />
+        <img class="homepage-icon py-2 px-3" src="images/Icons/sport-icon.png" alt="Lboro Sport Icon" style="height: 10vh; max-width: 100%" />
+        <img class="homepage-icon py-2 px-3" src="images/Icons/lions-icon.png" alt="Lions Sport Icon" style="height: 10vh; max-width: 100%" />
+      </div>
+    </div>
+
+    <div class="about-content p-5 pb-0 row w-100 g-0">
+      <div class="col-12 text-center" id="about">
+        <p class="h1 fw-bold">Daniel Lawrence</p>
+        <p class="small m-0" style="font-style: italic">(Loughborough University Student)</p>
+        <div class="container" style="width: 100%; max-width: 1000px">
+          <div class="d-flex justify-content-center p-2 gap-3">
+            <a href="https://github.com/DanielLawrence04?tab=repositories" target="_blank" style="height: fit-content" class="about-icon rounded-circle"><i class="fa-brands fa-github fs-5 p-3" style="color: white"></i></a>
+            <a href="mailto: daniel42r@icloud.com" style="height: fit-content" class="about-icon rounded-circle"><i class="fas fa-envelope fs-5 p-3" style="color: white"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-lawrence-5b868129a/" target="_blank" style="height: fit-content" class="about-icon rounded-circle"><i class="fa-brands fa-linkedin-in fs-5 p-3" style="color: white; margin: 0 0.1rem"></i></a>
+          </div>
+
+          <p>While advancing through my studies, I've discovered a passion for Software Development and UX Design. I am fascinated by AI programming, advanced mathematics and complex problem-solving. A few more interests of mine, aside from Computer Science, consist of video games, sports and my own health and fitness.</p>
+          <p>I'm looking to pursue a career in programming and software development and would be open to any oppotunities relevent to these feilds.</p>
+          <p class="py-1">Learn more about me:</p>
+          <a href="CV.pdf" target="_blank" class="btn resume-link"><i class="fas fa-file p-2 ps-0"></i>Resume</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills-content p-5 pb-0 row w-100 g-0">
+      <div class="col-12 text-center" id="skills">
+        <p class="h1 fw-bold">Skills</p>
+        <div class="container" style="width: 100%; max-width: 1000px">
+          <div class="p-3 mr-2 mb-2 skill-information">
+            <img class="skill-icon" src="images/Icons/ai-icon.png" alt="AI Icon" />
+            <span>Artifical Intelligence</span>
+          </div>
+          <div class="p-3 mr-2 mb-2 skill-information">
+            <img class="skill-icon" src="images/Icons/python-icon.png" alt="Python Icon" />
+            <span>Python</span>
+          </div>
+          <div class="p-3 mr-2 mb-2 skill-information">
+            <img class="skill-icon" src="images/Icons/vb-icon.png" alt="Python Icon" />
+            <span>VB/VBA</span>
+          </div>
+          <div class="p-3 mr-2 mb-2 skill-information">
+            <img class="skill-icon" src="images/Icons/c-icon.png" alt="Python Icon" />
+            <span>C/C++</span>
+          </div>
+          <div class="p-3 mr-2 mb-2 skill-information">
+            <img class="skill-icon" src="images/Icons/java-icon.png" alt="Python Icon" />
+            <span>Java</span>
+          </div>
+          <div class="p-3 mr-2 mb-2 skill-information">
+            <img class="skill-icon" src="images/Icons/javascript-icon.png" alt="Python Icon" />
+            <span>Javascript/Jquery</span>
+          </div>
+          <div class="p-3 mr-2 mb-2 skill-information">
+            <img class="skill-icon" src="images/Icons/html-icon.png" alt="Python Icon" />
+            <span>HTML/CSS</span>
+          </div>
+
+          <div class="p-3 mr-2 mb-2 skill-information">
+            <img class="skill-icon" src="images/Icons/php-icon.png" alt="Python Icon" />
+            <span>PHP/MYSQL</span>
+          </div>
+          <div class="p-3 mr-2 mb-2 skill-information">
+            <img class="skill-icon" src="images/Icons/bootstrap-icon.png" alt="Python Icon" />
+            <span>Bootstrap</span>
+          </div>
+          <div class="p-3 mr-2 mb-2 skill-information">
+            <img class="skill-icon" src="images/Icons/office-icon.png" alt="Office Icon" />
+            <span>Microsoft Office</span>
+          </div>
+          <div class="p-3 mr-2 mb-2 skill-information">
+            <img class="skill-icon" src="images/Icons/arduino-icon.png" alt="Arudino Icon" />
+            <span>Arudino IDE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects-content p-5 pb-0 row w-100 g-0">
+      <div class="col-12 text-center" id="projects">
+        <p class="h1 fw-bold mb-3">Projects</p>
+        <div class="container">
+          <!--card background container-->
+          <div class="project-information card me-2 mb-2" id="project-chess-background" type="button" style="border: none" data-bs-toggle="modal" data-bs-target="#chessModal">
+            <!--card image-->
+            <img class="project-icon card-img" id="project-chess-image" src="images/Projects/chess-icon.png" alt="Chess Icon" />
+            <!--card overlay-->
+            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+              <span class="h4" id="project-chess-title" style="visibility: hidden; font-weight: 600">Chess Game</span>
+            </div>
+          </div>
+
+          <!--card background container-->
+          <div class="project-information card me-2 mb-2" id="project-makeItAll-background" type="button" style="border: none" data-bs-toggle="modal" data-bs-target="#teamModal">
+            <!--card image-->
+            <img class="project-icon card-img" id="project-makeItAll-image" src="images/Projects/make-it-all-icon.png" alt="makeItAll Icon" />
+            <!--card overlay-->
+            <div class="card-img-overlay d-flex w-100 align-items-center justify-content-center">
+              <span class="h4" id="project-makeItAll-title" style="visibility: hidden; font-weight: 600">Make-It-All</span>
+            </div>
+          </div>
+
+          <!--card background container-->
+          <div class="project-information card me-2 mb-2" id="project-comingSoon-background" type="button" style="border: none">
+            <!--card image-->
+            <img class="project-icon card-img" id="project-comingSoon-image" src="images/Projects/coming-soon-icon.png" alt="comingSoon Icon" />
+            <!--card overlay-->
+            <div class="card-img-overlay d-flex w-100 align-items-center justify-content-center">
+              <span class="h4" id="project-comingSoon-title" style="visibility: hidden; font-weight: 600">Coming Soon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modals WITH documentation -->
+    <div class="modal fade" id="chessModal" tabindex="-1" role="dialog" aria-labelledby="chessModalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="modal-title h3 fw-bold" id="chessModalTitle">Chess Game</span>
+            <i class="exit-icon fas fa-times btn fs-4 py-1" data-bs-dismiss="modal"></i>
+          </div>
+          <div class="modal-body">
+            <span
+              >Designed and programmed a fully functioning single/multiplayer chess game for my A Level NEA. Created an AI using the minimax algorithm, with different levels of difficulty corresponding to the depth of algorithm. The documentation is linked below.<br />
+              (Duration - 9 months)</span
+            >
+            <br /><br />
+            <a href="NEA.pdf" target="_blank" class="btn resume-link"><i class="fas fa-file p-2 ps-0"></i>Documentation</a>
+            <br /><br />
+            <span>Below is an image preview of the gameplay between the developed AI and an user.</span>
+            <br /><br />
+            <img src="images/Chess/preview.png" alt="Chess Icon" style="width: 100%" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modals WITHOUT DOCUMENTATION-->
+    <div class="modal fade" id="teamModal" tabindex="-1" role="dialog" aria-labelledby="teamModalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="modal-title h3 fw-bold" id="teamModalTitle">Make-It-All</span>
+            <i class="exit-icon fas fa-times btn fs-4 py-1" data-bs-dismiss="modal"></i>
+          </div>
+          <div class="modal-body">
+            <span
+              >Within a team, designed and developed a website that could be used by a company in order to complete their work more efficiently. Used HTML, CSS, Bootstrap, Javascript, Jquery, and SQL to create this project.<br />
+              (Duration - 9 months)</span
+            >
+            <br /><br />
+            <span>Below is an image preview of the to-do-list page I created for each employee.</span>
+            <br /><br />
+            <img src="images/TeamProject/preview.png" alt="Make-It-All Icon" style="width: 100%" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-content p-5 row w-100 g-0">
+      <div class="col-12 text-center" id="contact">
+        <p class="h1 fw-bold">Contact</p>
+        <div class="container p-0 pb-2">
+          <span>Please email</span>
+          <a class="email-links" href="mailto: daniel42r@icloud.com">daniel42r@icloud.com</a>
+          <span class="small">or complete the following form.</span>
+        </div>
+        <div class="container-fluid p-0 d-flex justify-content-center">
+          <form style="width: 100%; max-width: 700px" method="POST" action="https://formspree.io/f/mqkvobvr">
+            <div class="container-fluid p-0">
+              <input type="text" class="form-control mb-2" name="name" placeholder="Name:" required />
+              <input type="email" class="form-control mb-2" name="email" placeholder="Email:" required />
+            </div>
+            <div class="form-group">
+              <textarea type="text" class="form-control mb-2" rows="5" name="message" placeholder="Message:" style="resize: none" required></textarea>
+            </div>
+            <button id="message-button" type="submit" class="btn"><i class="fa-solid fa-paper-plane p-2 ps-0"></i>Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer container-fluid" style="height: 25vh; background-color: #354253">
+      <div class="container h-100 d-flex flex-column">
+        <div class="d-flex justify-content-center py-3 pt-5 gap-3">
+          <a href="https://github.com/DanielLawrence04?tab=repositories" target="_blank" style="height: fit-content" class="about-icon rounded-circle"><i class="fa-brands fa-github fs-4 p-3" style="color: white"></i></a>
+          <a href="mailto: daniel42r@icloud.com" style="height: fit-content" class="about-icon rounded-circle"><i class="fas fa-envelope fs-4 p-3" style="color: white"></i></a>
+          <a href="https://www.linkedin.com/in/daniel-lawrence-5b868129a/" target="_blank" style="height: fit-content" class="about-icon rounded-circle"><i class="fa-brands fa-linkedin-in fs-4 p-3" style="color: white; margin: 0 0.1rem"></i></a>
+        </div>
+        <div class="d-flex justify-content-center p-2 text-light">
+          <span>Copyright © Daniel Lawrence 2023</span>
+        </div>
+      </div>
+    </div>
+
+    <!--javascript file link-->
+    <script src="sources.js"></script>
+    <!--bootstrap javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--fontawsome 5-->
+    <script src="https://kit.fontawesome.com/c67cc4bcea.js" crossorigin="anonymous"></script>
+  </body>
+</html>

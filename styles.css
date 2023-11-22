@@ -1,0 +1,133 @@
+body {
+  font-family: "Poppins";
+  background-color: #c3cad4;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/*navbar*/
+#navbar {
+  height: 10vh;
+}
+#hamburgerBtn {
+  border: 0;
+  width: fit-content;
+}
+
+/*navigation links*/
+.nav-link {
+  font-size: 1.1rem;
+  border-style: solid;
+  border-bottom-width: 2px;
+  border-color: transparent;
+}
+.nav-link:hover {
+  border-color: black;
+}
+/*navbar brand*/
+.navbar-brand:hover {
+  transform: scale(1.05);
+}
+/*enter portfolio button*/
+#btn-enter {
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+#btn-enter:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.05);
+}
+/*section icons*/
+.section-icon {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 5px;
+  background-color: #354253;
+}
+/*about icons*/
+.about-icon {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  background-color: #354253;
+}
+.about-icon:hover {
+  background-color: black;
+  transform: scale(1.05);
+}
+
+.skill-information {
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: fit-content;
+  display: inline-block;
+}
+
+.skill-icon {
+  width: 32px;
+  height: 32px;
+}
+
+/*resume link*/
+.resume-link {
+  border-radius: 10px;
+  background-color: #354253;
+  color: white;
+}
+.resume-link:hover {
+  background-color: black;
+  transform: scale(1.05);
+  color: white;
+}
+
+.project-information {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: fit-content;
+  display: inline-block;
+  padding: 2rem;
+}
+
+.project-icon {
+  width: 128px;
+  height: 128px;
+}
+
+/*contact section*/
+
+/*email links*/
+.email-links:hover {
+  color: black;
+}
+
+.form-control {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+/*message button*/
+#message-button {
+  border-radius: 10px;
+  background-color: #354253;
+  color: #ffffff;
+}
+#message-button:hover {
+  background-color: black;
+  transform: scale(1.05);
+}
+
+/*modals*/
+.modal-content {
+  background-color: #c3cad4;
+}
+
+.exit-icon:hover {
+  color: black;
+}
+
+.exit-icon:hover {
+  background-color: red;
+  color: white;
+}
